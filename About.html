@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>
+            About
+        </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <style>
+            body{
+                text-align: center;
+            }
+            #box{
+                width: 800px;
+                height: 400px;
+                position: relative;
+                left: 350px;
+                top: 100px;
+                text-align: left;
+            }
+            h1{
+                font-size: 40px;
+                font-family:Lobster; 
+            }
+            p{
+                font-size: 20px;
+                font-family: sans-serif;
+            }
+            #fbtn{
+                background-color: transparent;
+                text-align: center;
+                position: relative;
+                left: -715;
+                top: 290;
+                width: 100px;
+                height: 50px;
+                border-radius: 50px;
+                font-size: 25px;
+                font-family: Lobster;
+                color: #3498db;
+                border: 1px solid #3498db;
+                border-width: thick;
+                transition: 0.7s;
+                cursor: pointer;
+
+            }
+            #fbtn:hover{
+
+                background-color: #3498db;
+                color: #fff;
+
+            }
+            .flip-card {
+              width: 700px;
+              height: 300px;
+              perspective: 1000px;
+                border-radius: 60px;
+            }
+
+            .flip-card-inner {
+              position: relative;
+              width: 100%;
+              height: 100%;
+              text-align: center;
+              transition: transform 0.6s;
+              transform-style: preserve-3d;
+              box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            }
+
+            .flip-card:hover .flip-card-inner {
+              transform: rotateY(180deg);
+            }
+
+            .flip-card-front, .flip-card-back {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+            }
+
+            .flip-card-front {
+              background-color: #bbb;
+              color: black;
+            }
+
+            .flip-card-back {
+              background-color: #2980b9;
+              color: white;
+              transform: rotateY(180deg);
+            }
+        </style>
+    </head>
+    <body>
+    <div id="box">
+        <h1>About</h1>
+                    <div class="flip-card">
+                            <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                            <img src="MyPic.jpg" alt="Avatar" style="width:700px;height:300px;">
+                            </div>
+                            <div class="flip-card-back">
+                            <h1>Dakshiin</h1> 
+
+                            <p>Web Developer</p> 
+                             
+                            <p>Dakshiin is a 12 year old web designer. He likes to code and play with his projects. Dakshiin also has made many other games. Hope you like this website
+                                -Dakshiin</p>
+                            </div>
+                            </div>
+                    </div>
+    </div>
+        <a href="Start.html"><button id="fbtn">Back</button></a>
+    </body>
+</html>

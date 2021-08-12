@@ -1,0 +1,187 @@
+#bdice{
+    position: relative;
+    left: 190px;
+    top: 100px;
+}
+#dice{
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+#dice2{
+    position: relative;
+    left: 150px;
+    width: 400px;
+    height: 300px;
+}
+#dice3{
+    position: relative;
+    left: 300px;
+    width: 400px;
+    height: 300px;
+}
+#dice4{
+    
+    width: 400px;
+    height: 300px;
+}
+#dice5{
+    position: relative;
+    left: 150px;
+    width: 400px;
+    height: 300px;
+}
+#dice6{
+    position: relative;
+    left: 300px;
+    width: 400px;
+    height: 300px;
+}
+#dice7{
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+#dice8{
+    position: relative;
+    left: 150px;
+    width: 400px;
+    height: 300px;
+}
+#dice9{
+    position: relative;
+    left: 300px;
+    width: 400px;
+    height: 300px;
+}
+#bdice{
+    background-color: transparent;
+    position: relative;
+    left: -550px;
+    left: -550px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-family: cursive;
+    color: #3498db;
+    border: 1px solid #3498db;
+    border-width: thick;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+#bdice:hover{
+    width: 220px;
+    height: 70px;
+    background-color: #3498db;
+    color: #fff;
+
+}
+#dicet{
+    font-family: Lobster;
+    font-size: 50px;
+    text-align: center;
+}
+#diceh{
+    position: relative;
+    top: 150px;
+    font-family: Lobster;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 20px;
+}
+#sbtn{
+    text-align: center;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    left: 510px;
+    top: 150px;
+    width: 500px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 50px;
+    font-family: Lobster;
+    color: #3498db;
+    border: 1px solid #3498db;
+    border-width: thick;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+#sbtn:hover{
+    
+    background-color: #3498db;
+    color: #fff;
+
+}
+#abtn{
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    left: 6px;
+    top: 265px;
+    width: 500px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 50px;
+    font-family: Lobster;
+    color: #3498db;
+    border: 1px solid #3498db;
+    border-width: thick;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+#abtn:hover{
+    
+    background-color: #3498db;
+    color: #fff;
+
+}
+#b{
+    background-color: transparent;
+    position: relative;
+    top: 100px;   
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: Lobster;
+    color: #3498db;
+    border: 1px solid #3498db;
+    border-width: thick;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+#b:hover{
+    
+    background-color: #3498db;
+    color: #fff;
+
+}
+#cbtn{
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    left: -497px;
+    top: 380px;
+    width: 500px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 50px;
+    font-family: Lobster;
+    color: #3498db;
+    border: 1px solid #3498db;
+    border-width: thick;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+#cbtn:hover{
+    
+    background-color: #3498db;
+    color: #fff;
+
+}
